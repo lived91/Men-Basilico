@@ -1,0 +1,31 @@
+.bg-primary
+{
+  background-image : linear-gradient(45deg,#00b8ff,#6aeaff);
+}
+.center 
+{
+  position : relative;
+  width : auto;
+  margin : 0 auto;
+  top : 50% ;
+  transform : translate ( 0%, 50%);
+  text-align : center;
+}
+
+.button
+{
+  width : 300px;
+  height : 80px;
+  border-colo : transparent;
+  border-radius : 40px;
+  box-shadow: 0px 0px 15px #0088cb;
+  font-size : 25px;
+  font-family : 'Playfair Display', italic;
+  color : #0088cb;
+}
+
+.button:focus
+{
+  outline:0;
+}
+  
